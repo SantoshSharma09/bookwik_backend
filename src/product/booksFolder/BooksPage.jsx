@@ -16,7 +16,7 @@ const BooksPage = () => {
   //Fetching the data:
   const getProd = () => {
     axios
-      .get(`http://localhost:8000/books`)
+      .get(`https://real-blue-cormorant-cap.cyclic.app/books`)
       .then((res) => {
         // console.log(res.data);
         setProd(res.data);
